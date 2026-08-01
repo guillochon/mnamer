@@ -1,0 +1,10 @@
+---
+description: Always commit and push local changes to the fork
+alwaysApply: true
+---
+
+# Commit and push
+
+After finishing a related set of local code changes, always commit and push to `origin` unless the user explicitly says not to. Do not wait to be asked.
+
+Follow normal git safety: no force-push to main/master, no skipping hooks, no amending commits that were already pushed unless requested.
